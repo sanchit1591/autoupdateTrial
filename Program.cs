@@ -7,7 +7,7 @@ namespace autoupdateTrial
     {
         static void Main(string[] args)
         {
-            AutoUpdater.Start("https://github.com/sanchit1591/autoupdateTrial/blob/master/updater.xml");
+            AutoUpdater.Start("https://raw.githubusercontent.com/sanchit1591/autoupdateTrial/master/updater.xml");
             Console.WriteLine("Hello World!");
         }
     }
