@@ -8,8 +8,8 @@ namespace autoupdateTrial
         static void Main(string[] args)
         {
             AutoUpdater.Synchronous = true;
-            AutoUpdater.Start("https://raw.githubusercontent.com/sanchit1591/autoupdateTrial/master/updater.xml");
-            Console.WriteLine("Hello World!");
+            AutoUpdater.Start("https://raw.githubusercontent.com/sanchit1591/test-.netCore/main/updater.xml");
+            Console.WriteLine("Hello Worlda!");
         }
     }
 }
